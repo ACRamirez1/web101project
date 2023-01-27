@@ -1,0 +1,70 @@
+
+
+
+.main{
+    padding-bottom: 80px;
+
+}
+
+h3{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.hsbox-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.hsbox{        
+    border: 5px solid rgb(208,195,241);
+
+    
+
+}
+
+.hs-img{
+    max-width: 100%;
+    max-height: 100%;
+    /* display: block; */
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+    
+.hsbox-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+
+    .hsbox-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }   
+
+
+
+
+
+
+
+
+
+}

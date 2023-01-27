@@ -1,0 +1,79 @@
+
+
+.main-blog{
+    margin: 10px;
+    padding: 10px;
+    line-height: 25px;
+    padding-bottom: 100px;
+}
+
+.main-blog>,h3{
+    line-height: 90px;
+    margin-bottom: 10px;
+    
+}
+
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195,197,209);
+    border: 3px solid rgb(208,195,241);
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+.main{
+    display: flex;
+        
+}
+
+.main-blog{
+    width: 100%;
+}
+
+h2{
+    margin-left: 70px;
+}
+
+.recent-news{
+    padding: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
